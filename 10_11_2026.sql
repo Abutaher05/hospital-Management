@@ -1,0 +1,6 @@
+-- CREATE DATABASE hospital_db;
+-- use hospital_db;
+CREATE TABLE roles (
+  id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  code VARCHAR(32) NOT NULL UNIQUE
+) ENGINE=InnoDB;
